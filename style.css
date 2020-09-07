@@ -38,6 +38,27 @@ ul {
 
 }
 hr {
-    size: 1px;
-    color: #e0dede;
+    border-top: 1px solid #c2bfbf;
+}
+.footer{
+    background-color: rgb(221, 221, 221);
+    color: rgb(156, 155, 153);
+    
+
+}
+.footer .foot2{
+    padding-bottom: 3px;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+footer ul li{
+    padding-left: 20px;
+}
+b {
+    font-size: larger;
+    color: rgb(59, 59, 59);
 }
