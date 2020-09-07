@@ -1,0 +1,64 @@
+body {
+    padding: 20px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.left {
+    display: flex;
+}
+.google{
+    width: 100px;
+    height: 50px;
+}
+header input {
+    width: 600px;
+    height: 50px;
+    border: 1px solid #dddddd;
+    border-radius: 50px;
+}
+.btn-link {
+    background-color: royalblue;
+    color: seashell;
+    text-decoration: none;
+    padding: 10px;
+}
+.list {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: opx;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+hr {
+    border-top: 1px solid #c2bfbf;
+}
+.footer{
+    background-color: rgb(221, 221, 221);
+    color: rgb(156, 155, 153);
+    
+
+}
+.footer .foot2{
+    padding-bottom: 3px;
+}
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+footer ul li{
+    padding-left: 20px;
+}
+b {
+    font-size: larger;
+    color: rgb(59, 59, 59);
+}
