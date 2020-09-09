@@ -1,5 +1,6 @@
 body {
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nav {
     display: flex;
@@ -40,6 +41,29 @@ ul {
 hr {
     border-top: 1px solid #c2bfbf;
 }
+section {
+    padding-left: 60px;
+    text-align: 1;
+}
+a {
+    color: rgb(25, 25, 199);
+}
+#a-h4{
+    color: #383737;
+}
+p {
+    font-size: medium;
+}
+.innerList{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.innerList p{
+    width: 200px;
+}
 .footer{
     background-color: rgb(221, 221, 221);
     color: rgb(156, 155, 153);
@@ -61,4 +85,7 @@ footer ul li{
 b {
     font-size: larger;
     color: rgb(59, 59, 59);
+}
+i {
+    color: #383737;
 }
