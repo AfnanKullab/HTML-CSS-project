@@ -44,25 +44,39 @@ hr {
 section {
     padding-left: 60px;
     text-align: 1;
+    width: 500px;
 }
 a {
     color: rgb(25, 25, 199);
 }
-#a-h4{
+.a-h4{
     color: #383737;
+    padding-bottom: 0px;
+    font-size: small;
 }
 p {
     font-size: medium;
 }
 .innerList{
-    width: 500px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 5px;
-    padding-left: 50px;
+    padding-left: 10px;
 }
 .innerList p{
     width: 200px;
+}
+.innerList2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+table,td {
+    border: 1px solid #383737;
+    padding: 10px;
+    border-collapse: collapse;
+    border-radius: 15px;
+    width: 500px;
 }
 .footer{
     background-color: rgb(221, 221, 221);
@@ -83,7 +97,7 @@ footer ul li{
     padding-left: 20px;
 }
 b {
-    font-size: larger;
+    font-size: medium;
     color: rgb(59, 59, 59);
 }
 i {
